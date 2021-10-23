@@ -1,0 +1,278 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x12_Female J1
+U 1 1 6281C56B
+P 2400 1300
+F 0 "J1" H 2428 1276 50  0000 L CNN
+F 1 "Conn_01x12_Female" H 2428 1185 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 2400 1300 50  0001 C CNN
+F 3 "~" H 2400 1300 50  0001 C CNN
+	1    2400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 6281E5BD
+P 2050 2000
+F 0 "#PWR01" H 2050 1750 50  0001 C CNN
+F 1 "GND" H 2055 1827 50  0000 C CNN
+F 2 "" H 2050 2000 50  0001 C CNN
+F 3 "" H 2050 2000 50  0001 C CNN
+	1    2050 2000
+	1    0    0    -1  
+$EndComp
+Text Label 2200 800  2    50   ~ 0
+Lfo1UniOut
+Text Label 2200 900  2    50   ~ 0
+Lfo1BiOut
+Text Label 2200 1000 2    50   ~ 0
+Lfo2UniOut
+Text Label 2200 1100 2    50   ~ 0
+Lfo2BiOut
+Text Label 2200 1200 2    50   ~ 0
+Lfo3UniOut
+Text Label 2200 1300 2    50   ~ 0
+Lfo3BiOut
+Text Label 2200 1400 2    50   ~ 0
+Lfo4UniOut
+Text Label 2200 1500 2    50   ~ 0
+Lfo4BiOut
+Text Label 2200 1600 2    50   ~ 0
+cv1in
+Wire Wire Line
+	2200 1900 2050 1900
+Wire Wire Line
+	2050 1900 2050 2000
+NoConn ~ 2200 1700
+NoConn ~ 2200 1800
+$Comp
+L Connector:AudioJack2 J2
+U 1 1 628203DC
+P 3850 1200
+F 0 "J2" H 3670 1183 50  0000 R CNN
+F 1 "AudioJack2" H 3670 1274 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3850 1200 50  0001 C CNN
+F 3 "~" H 3850 1200 50  0001 C CNN
+	1    3850 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 62820FC3
+P 3650 1300
+F 0 "#PWR02" H 3650 1050 50  0001 C CNN
+F 1 "GND" H 3655 1127 50  0000 C CNN
+F 2 "" H 3650 1300 50  0001 C CNN
+F 3 "" H 3650 1300 50  0001 C CNN
+	1    3650 1300
+	1    0    0    -1  
+$EndComp
+Text Label 3650 1200 2    50   ~ 0
+Lfo1UniOut
+$Comp
+L Connector:AudioJack2 J3
+U 1 1 62825E22
+P 3850 1750
+F 0 "J3" H 3670 1733 50  0000 R CNN
+F 1 "AudioJack2" H 3670 1824 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3850 1750 50  0001 C CNN
+F 3 "~" H 3850 1750 50  0001 C CNN
+	1    3850 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 62825E28
+P 3650 1850
+F 0 "#PWR03" H 3650 1600 50  0001 C CNN
+F 1 "GND" H 3655 1677 50  0000 C CNN
+F 2 "" H 3650 1850 50  0001 C CNN
+F 3 "" H 3650 1850 50  0001 C CNN
+	1    3650 1850
+	1    0    0    -1  
+$EndComp
+Text Label 3650 1750 2    50   ~ 0
+Lfo1BiOut
+$Comp
+L Connector:AudioJack2 J4
+U 1 1 62827B62
+P 5150 1200
+F 0 "J4" H 4970 1183 50  0000 R CNN
+F 1 "AudioJack2" H 4970 1274 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 5150 1200 50  0001 C CNN
+F 3 "~" H 5150 1200 50  0001 C CNN
+	1    5150 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 62827B68
+P 4950 1300
+F 0 "#PWR04" H 4950 1050 50  0001 C CNN
+F 1 "GND" H 4955 1127 50  0000 C CNN
+F 2 "" H 4950 1300 50  0001 C CNN
+F 3 "" H 4950 1300 50  0001 C CNN
+	1    4950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J5
+U 1 1 62827B6F
+P 5150 1750
+F 0 "J5" H 4970 1733 50  0000 R CNN
+F 1 "AudioJack2" H 4970 1824 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 5150 1750 50  0001 C CNN
+F 3 "~" H 5150 1750 50  0001 C CNN
+	1    5150 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 62827B75
+P 4950 1850
+F 0 "#PWR05" H 4950 1600 50  0001 C CNN
+F 1 "GND" H 4955 1677 50  0000 C CNN
+F 2 "" H 4950 1850 50  0001 C CNN
+F 3 "" H 4950 1850 50  0001 C CNN
+	1    4950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J7
+U 1 1 62829ADA
+P 6400 1150
+F 0 "J7" H 6220 1133 50  0000 R CNN
+F 1 "AudioJack2" H 6220 1224 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 6400 1150 50  0001 C CNN
+F 3 "~" H 6400 1150 50  0001 C CNN
+	1    6400 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 62829AE0
+P 6200 1250
+F 0 "#PWR07" H 6200 1000 50  0001 C CNN
+F 1 "GND" H 6205 1077 50  0000 C CNN
+F 2 "" H 6200 1250 50  0001 C CNN
+F 3 "" H 6200 1250 50  0001 C CNN
+	1    6200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J8
+U 1 1 62829AE7
+P 6400 1700
+F 0 "J8" H 6220 1683 50  0000 R CNN
+F 1 "AudioJack2" H 6220 1774 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 6400 1700 50  0001 C CNN
+F 3 "~" H 6400 1700 50  0001 C CNN
+	1    6400 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 62829AED
+P 6200 1800
+F 0 "#PWR08" H 6200 1550 50  0001 C CNN
+F 1 "GND" H 6205 1627 50  0000 C CNN
+F 2 "" H 6200 1800 50  0001 C CNN
+F 3 "" H 6200 1800 50  0001 C CNN
+	1    6200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J9
+U 1 1 6282B366
+P 7800 1100
+F 0 "J9" H 7620 1083 50  0000 R CNN
+F 1 "AudioJack2" H 7620 1174 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 7800 1100 50  0001 C CNN
+F 3 "~" H 7800 1100 50  0001 C CNN
+	1    7800 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 6282B36C
+P 7600 1200
+F 0 "#PWR09" H 7600 950 50  0001 C CNN
+F 1 "GND" H 7605 1027 50  0000 C CNN
+F 2 "" H 7600 1200 50  0001 C CNN
+F 3 "" H 7600 1200 50  0001 C CNN
+	1    7600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J10
+U 1 1 6282B373
+P 7800 1650
+F 0 "J10" H 7620 1633 50  0000 R CNN
+F 1 "AudioJack2" H 7620 1724 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 7800 1650 50  0001 C CNN
+F 3 "~" H 7800 1650 50  0001 C CNN
+	1    7800 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 6282B379
+P 7600 1750
+F 0 "#PWR010" H 7600 1500 50  0001 C CNN
+F 1 "GND" H 7605 1577 50  0000 C CNN
+F 2 "" H 7600 1750 50  0001 C CNN
+F 3 "" H 7600 1750 50  0001 C CNN
+	1    7600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J6
+U 1 1 6282B40B
+P 5600 2850
+F 0 "J6" H 5420 2833 50  0000 R CNN
+F 1 "AudioJack2" H 5420 2924 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 5600 2850 50  0001 C CNN
+F 3 "~" H 5600 2850 50  0001 C CNN
+	1    5600 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 6282BF5D
+P 5400 2950
+F 0 "#PWR06" H 5400 2700 50  0001 C CNN
+F 1 "GND" H 5405 2777 50  0000 C CNN
+F 2 "" H 5400 2950 50  0001 C CNN
+F 3 "" H 5400 2950 50  0001 C CNN
+	1    5400 2950
+	1    0    0    -1  
+$EndComp
+Text Label 5400 2850 2    50   ~ 0
+cv1in
+Text Label 4950 1200 2    50   ~ 0
+Lfo2UniOut
+Text Label 4950 1750 2    50   ~ 0
+Lfo2BiOut
+Text Label 6200 1150 2    50   ~ 0
+Lfo3UniOut
+Text Label 6200 1700 2    50   ~ 0
+Lfo3BiOut
+Text Label 7600 1100 2    50   ~ 0
+Lfo4UniOut
+Text Label 7600 1650 2    50   ~ 0
+Lfo4BiOut
+$EndSCHEMATC
